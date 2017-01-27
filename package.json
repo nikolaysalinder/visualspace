@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Choose your future.",
   "main": "index.js",
- "scripts": {
+  "scripts": {
     "start": "budo --live --verbose --port 3000 --open",
     "deploy": "ghpages",
     "ghpages": "ghpages"
@@ -20,9 +20,9 @@
     "webvr",
     "vr"
   ],
-  "main": "index.js",
   "dependencies": {
-    "aframe": "^0.4.0"
+    "aframe": "^0.4.0",
+    "express": "^4.14.0"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,6 @@
   "bugs": {
     "url": "https://github.com/nikolaysalinder/visualspace/issues"
   },
-  "homepage": "https://github.com/nikolaysalinder/visualspace#readme"
+  "homepage": "https://github.com/nikolaysalinder/visualspace#readme",
+  "license": "MIT"
 }
-
