@@ -3,20 +3,35 @@
   "version": "1.0.0",
   "description": "Choose your future.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+ "scripts": {
+    "start": "budo --live --verbose --port 3000 --open",
+    "deploy": "ghpages",
+    "ghpages": "ghpages"
+  },
+  "devDependencies": {
+    "budo": "^7.0.0",
+    "ghpages": "0.0.3"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-example",
+    "aframe-boilerplate",
+    "aframe-scene",
+    "webvr",
+    "vr"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "aframe": "^0.4.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nikolaysalinder/visualspace.git"
   },
-  "author": "\"Nikolay Salinder\"",
-  "license": "MIT",
+  "author": "Nikolay Salinder",
   "bugs": {
     "url": "https://github.com/nikolaysalinder/visualspace/issues"
   },
-  "homepage": "https://github.com/nikolaysalinder/visualspace#readme",
-  "dependencies": {
-    "aframe": "^0.4.1"
-  }
+  "homepage": "https://github.com/nikolaysalinder/visualspace#readme"
 }
+
