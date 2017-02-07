@@ -22,9 +22,12 @@
   ],
   "dependencies": {
     "aframe": "^0.4.0",
+<<<<<<< HEAD
     "aframe-text-component": "^0.4.2",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0"
+=======
+>>>>>>> d3e3e7af4fe59cc3f2b1cb783b8532df6e7fee6c
   },
   "repository": {
     "type": "git",
