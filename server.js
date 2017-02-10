@@ -7,7 +7,6 @@ app.use(express.static(__dirname + '/public'));
 var handlebars = require('express-handlebars').create({
   defaultLayout:'main',
   //этот код надо внести для того чтобы не было Error: Missing helper "section"
-  //this piece of a code is necessary to avoid Error: Missing helper "section"
   helpers: {
     section: function(name, options){
       if(!this._sections) this._sections = {};
