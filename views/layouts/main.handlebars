@@ -1,27 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Visual Space</title>
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-  <script src="https://rawgit.com/aframevr/aframe/9257bcb/dist/aframe-master.min.js"></script>
-  <script src="https://unpkg.com/aframe-text-component@^0.4.1/dist/aframe-text-component.min.js"></script>
-</head>
-<body>
-  {{{body}}}
-  <script>
-    AFRAME.registerComponent('cursor-listener', {
-    init: function () {
-      var COLORS = ['red', 'green', 'blue'];
-      this.el.addEventListener('click', function (evt) {
-        var randomIndex = Math.floor(Math.random() * COLORS.length);
-        this.setAttribute('material', 'color', COLORS[randomIndex]);
-        console.log('I was clicked at: ', evt.detail.intersection.point);
-      });
-    }
-  });
-  </script>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Visual Space</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+  </head>
+  <body>
+
+    {{{body}}}
+    
+  </body>
 </html>
